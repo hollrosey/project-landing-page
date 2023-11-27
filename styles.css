@@ -1,7 +1,53 @@
 body {
-    
+    font-family: 'Monaco';
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#logo {
+    max-height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: brown;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+
+li {
+    display: inline;
+    margin: 28px;
+    font-size: 20px;
 }
 
 img {
-    max-width: 350px;
+    
 }
+
+.island-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+  }
+  
+  .text {
+    max-width: 200px;
+  }
