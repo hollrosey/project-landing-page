@@ -44,7 +44,11 @@ li {
     border: 15px solid #B7B398;
 }
 
-.section2 {
+ .section1 {
+
+ }
+ 
+ .section2 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
