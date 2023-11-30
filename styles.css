@@ -1,9 +1,10 @@
 body {
-    font-family: 'Monaco';
+    font-family: 'Helvetica';
     margin-top: 100px;
+    background-color: #F5F7E9;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-weight: bolder;
 }
@@ -23,7 +24,7 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: brown;
+    background-color: #B7B398;
    display: flex;
    justify-content: right;
    align-items: center;
@@ -31,23 +32,35 @@ ul {
 
 li {
     display: inline;
-    margin: 28px;
+    margin: 30px;
     font-size: 20px;
 }
 
-img {
-    
+.resize {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 15px solid #B7B398;
 }
 
-.island-imgs {
+.section2 {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    justify-content: space-around;
     flex-flow: row wrap;
-    justify-content: space-between;
+    gap: 50px;
+}
 
-  }
-  
+
+
   .text {
     max-width: 200px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .section3 {
+    padding: 150px;
+    background-color: #2BB673;
   }
