@@ -1,8 +1,11 @@
+
+
 body {
     font-family: 'Helvetica';
     margin-top: 100px;
     background-color: #F5F7E9;
-}
+ }
+
 
 h1, h2 {
     text-align: center;
@@ -45,15 +48,16 @@ li {
 }
 
  .section1 {
-
+  display: flex;
+  flex-flow: row-reverse;
  }
- 
+
  .section2 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     flex-flow: row wrap;
-    gap: 50px;
+    gap: 40px;
 }
 
 
