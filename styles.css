@@ -4,6 +4,7 @@ body {
     font-family: 'Helvetica';
     margin-top: 100px;
     background-color: #F5F7E9;
+    font-size: 20px;
  }
 
 
@@ -50,6 +51,7 @@ li {
  .section1 {
   display: flex;
   flex-flow: row-reverse;
+  justify-content: center;
  }
 
  .section2 {
@@ -73,6 +75,12 @@ li {
     background-color: #2BB673;
   }
 
-  p {
-    margin: 10px;
+
+  .section4 {
+    text-align: center;
+    margin: 150px;
+    background-color: #2BB673;
+    padding: 40px;
   }
+
+ 
